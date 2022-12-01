@@ -42,15 +42,15 @@ class Customer(object):
     def get_bastket(self):
         return self.bastket
 
-    def set_balance(self, b):
-        self.balance = b
+    def set_amount(self, a):
+        self.amount = a
 
-    def get_balance(self):
-        return self.balance
+    def get_amount(self):
+        return self.amount
 
     def display(self):
         print(f'bastket: {self.bastket}')
-        print(f'Balance: {self.balance}')
+        print(f'Balance: {self.amount}')
 
 
 stock = []
